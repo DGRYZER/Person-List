@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(94, 237, 232);
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  #nav a:hover {
+    transform: scale(1.2);
+    transition: 0.2;
+    text-decoration: 2px overline;
+  }
+  
+
+#home {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  #search{
+    margin-bottom: 20px;
+    height: 30px;
+    width: 350px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(231, 229, 229);
+  }
+
+  #table {
+    margin-bottom: 15px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th {
+    background-color: #d45252;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  #slno,
+  #name {
+    padding: 10px;
+  }
+  
+  #name {
+    cursor: pointer;
+  }
+  
+  #btn button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #btn button:hover {
+    background-color: #45a049;
+  }
+  
+  #page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #page button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #page button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  #pagecount {
+    margin: 10px;
+  }
+  
+  #details {
+    text-align: center;
+    width: 450px;
+    height: 200px;
+    border-radius: 75px;
+  }
+  
+  #details h2 {
+    margin-bottom: 10px;
+    margin-top: 15px;
+
+  }
+  
+  #details p {
+    margin: 5px;
+  }
+
+#fav {
+    padding: 20px;
+  }
+  
+  #favtable {
+    margin-top: 80px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #favtable thead th {
+    background-color: rgb(150, 149, 223);
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  tbody td {
+    padding: 10px;
+  }
+  
+  #favslno {
+    width: 10%;
+  }
+  
+  #favname {
+    width: 60%;
+  }
+  
+  #delete {
+    width: 30%;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+  

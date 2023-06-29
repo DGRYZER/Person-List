@@ -1,0 +1,36 @@
+{
+  "Name": [
+    {
+      "name": "C-3PO",
+      "height": "167",
+      "mass": "75",
+      "haircolor": "n/a",
+      "skincolor": "gold",
+      "id": 1
+    },
+    {
+      "name": "R2-D2",
+      "height": "96",
+      "mass": "32",
+      "haircolor": "n/a",
+      "skincolor": "white, blue",
+      "id": 2
+    },
+    {
+      "name": "Darth Vader",
+      "height": "202",
+      "mass": "136",
+      "haircolor": "none",
+      "skincolor": "white",
+      "id": 3
+    },
+    {
+      "name": "Leia Organa",
+      "height": "150",
+      "mass": "49",
+      "haircolor": "brown",
+      "skincolor": "light",
+      "id": 4
+    }
+  ]
+}
